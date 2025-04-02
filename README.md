@@ -17,43 +17,11 @@ This is a React-based web application that allows users to explore profiles, vie
 
 ## Screenshots
 
-### Home Page
-![Home Page](public/img/eg4.png)
+### On Desktop
+<img width="1469" alt="Screenshot 2025-04-02 at 9 17 48 PM" src="https://github.com/user-attachments/assets/25346d7e-dff1-43f9-ba1a-4d4862cb0f12" />
 
-### Profile List with Map
-![Profile List with Map](public/img/sarah-chen.jpeg)
-
----
-
-## Project Structure
-
-```
-my-react-project
-├── public
-│   ├── index.html
-│   ├── favicon.ico
-│   └── img/
-│       ├── alex-morgan.jpeg
-│       ├── sarah-chen.jpeg
-│       ├── james-wilson.jpeg
-│       └── eg4.png
-├── src
-│   ├── components
-│   │   ├── AdminPanel.js
-│   │   ├── AdminPanelForm.js
-│   │   ├── Header.js
-│   │   ├── MapView.js
-│   │   └── ProfileList.js
-│   ├── pages
-│   │   └── HomePage.js
-│   ├── App.js
-│   ├── index.js
-│   └── styles
-│       └── App.css
-├── package.json
-├── .gitignore
-└── README.md
-```
+### On Mobile
+<img width="339" alt="Screenshot 2025-04-02 at 9 17 10 PM" src="https://github.com/user-attachments/assets/a41c16b9-ae49-4bc7-acba-68cabd4fd7c9" />
 
 ---
 
@@ -144,33 +112,6 @@ Follow these steps to set up and run the project locally:
 - **React**: Frontend framework.
 - **Google Maps API**: For map integration.
 - **CSS**: For styling and responsive design.
-
----
-
-## Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
