@@ -6,21 +6,21 @@ const profiles = [
     role: "Software engineer specializing in frontend development with React and TypeScript.",
     location: "San Francisco, CA",
     coordinates: { lat: 37.7749, lng: -122.4194 },
-    photo: "./public/img/alex-morgan.jpeg", // Updated path
+    photo: "./public/img/alex-morgan.jpeg", 
   },
   {
     name: "Sarah Chen",
     role: "Product designer with a passion for creating intuitive user experiences.",
     location: "New York, NY",
     coordinates: { lat: 40.7128, lng: -74.006 },
-    photo: "/img/sarah-chen.jpeg", // Updated path
+    photo: "/img/sarah-chen.jpeg", 
   },
   {
     name: "James Wilson",
     role: "Marketing director with 10+ years experience in digital strategy and branding.",
     location: "Chicago, IL",
     coordinates: { lat: 41.8781, lng: -87.6298 },
-    photo: "/img/james-wilson.jpeg", // Updated path
+    photo: "/img/james-wilson.jpeg", 
   },
 ];
 
@@ -30,7 +30,7 @@ function ProfileList({ profiles, onShowOnMap }) {
   const toggleDescription = (index) => {
     setVisibleDescriptions((prevState) => ({
       ...prevState,
-      [index]: !prevState[index], // Toggle visibility for the clicked profile
+      [index]: !prevState[index], 
     }));
   };
 
