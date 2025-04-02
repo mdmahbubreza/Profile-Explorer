@@ -13,7 +13,7 @@ function AdminPanelForm({ profiles, addProfile, editProfile, deleteProfile, togg
     if (newProfile.index !== undefined) {
       // Edit existing profile
       const updatedProfile = { ...newProfile };
-      delete updatedProfile.index; // Remove the temporary index property
+      delete updatedProfile.index; 
       editProfile(newProfile.index, updatedProfile);
     } else {
       // Add new profile
@@ -23,7 +23,7 @@ function AdminPanelForm({ profiles, addProfile, editProfile, deleteProfile, togg
   };
 
   const handleEdit = (index) => {
-    setNewProfile({ ...profiles[index], index }); // Add index to track the profile being edited
+    setNewProfile({ ...profiles[index], index }); 
   };
 
   return (
